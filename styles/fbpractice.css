@@ -1,0 +1,84 @@
+.fb-login{
+    margin-left: 70px;
+}
+
+
+.fb-intro{
+    width: 550px;
+    display: inline-block;
+}
+
+
+.fblogo{
+    width: 280px;
+    display: inline-block;
+}
+.fbstate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #1c1e21;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+.form{
+    display: inline-block;
+    margin-left: 50px;
+    width: 400px;
+    padding-top: 150px;
+}
+.email, .password{
+    width: 325px;
+    height: 45px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(190, 184, 184);
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+.email::placeholder, .password::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.log-in-button{
+    background-color:rgb(24, 119, 242) ;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+.log-in-button:hover{
+    cursor: pointer;
+    background-color:rgb(10, 113, 248) ;
+}
+.fp-text{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 119, 242);
+    margin-left: 100px;
+}
+.fp-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.create-button{
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+.create-button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 119, 3);
+}

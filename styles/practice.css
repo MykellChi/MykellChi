@@ -1,0 +1,30 @@
+.header{
+    font-size: 95px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 370px;
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    
+}
+
+.body{
+    padding-top: 300px;
+    padding-bottom: 700px;
+}
+.p-1{
+    font-family: Arial;
+    font-size: small;
+    font-style: italic;
+    display: inline-block;
+    width: 700px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-left: 350px;
+}

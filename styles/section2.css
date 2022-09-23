@@ -1,0 +1,122 @@
+.offer-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.sell-fish{
+    display: inline-block;
+    font-size: larger;
+    width: 350px;
+    background-color: rgb(73, 117, 175);
+    border-radius: 7px;
+}
+
+#buy-button{
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.15s;
+}
+#buy-button:hover{
+    opacity: 0.5;
+}
+
+#apply-button{
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.15s;
+}
+#apply-button:hover{
+    opacity: 0.5;
+}
+
+#consult-button{
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+#consult-button:hover{
+    opacity: 0.5;
+}
+
+.aq-train{
+    display: inline-block;
+    font-size: larger;
+    width: 350px;
+    background-color: rgb(73, 117, 175);
+    border-radius: 7px;
+}
+
+.consult{
+    display: inline-block;
+    font-size: larger;
+    width: 350px;
+    background-color: rgb(73, 117, 175);
+    border-radius: 7px;
+}
+
+.farm-m{
+    background-color: rgb(160, 151, 151);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(43, 41, 41);
+    color: rgba(255, 255, 255, 0.486);
+    justify-content: space-between;
+}
+
+.foot-1{
+    width: 400px;
+    height: 250px;
+    font-style: italic;
+    line-height: 35px;
+    margin-left: 8px;
+}
+
+.q-link{
+    line-height: 35px;
+    font-style: italic;
+}
+
+.foot-3{
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-right: 15px;
+}

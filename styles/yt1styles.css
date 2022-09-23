@@ -1,0 +1,43 @@
+.video-preview{
+   display: inline-block;
+}
+
+.video-image{
+display: inline-block;
+}
+.video-thumbnail{
+    width: 400px;
+}
+.video-stats{
+   display: grid;
+   grid-template-columns: 40px 1fr;
+   vertical-align: top;
+}
+.profile-picture{
+   display: inline-block;
+   width: 40px;
+}
+.profile-dp{
+   display: inline-block;
+   width: 39px;
+   border-radius: 19px;
+   margin-top: 9px;
+}
+.video-title{
+   display: inline-block;
+   font-family: arial;
+   margin-left: 7px;
+}
+.video-info{
+ font-size: 15px;
+ font-weight: 550;
+ margin-top: 10px;
+}
+.profile-name{
+ font-size: 13px;
+ color: rgb(74, 75, 77);
+}
+.profile-stats{
+ font-size: 12px;
+ color: rgb(74, 75, 77);
+}

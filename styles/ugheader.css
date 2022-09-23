@@ -1,0 +1,106 @@
+.body{
+    position: relative;
+}
+
+.head-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.orca-logo{
+    padding-top: 30px;
+    margin-right: -20px;}
+.orca{
+    width: 80px;
+    height: 70px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(69, 69, 228);
+    border-bottom: solid;
+    border-radius: 8px;
+    padding-right: 80px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 400;
+} 
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.fb-icon, .tweet, .insta, .telegram, .whatsapp{
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.telegram, .whatsapp{
+    border-radius: 40px;
+}
+
+
+.farm-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+
+
+.txt-1{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    color: white;
+    margin-bottom: 0;
+}
+
+.txt-2{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(170, 47, 47);
+    margin-top: 0;
+}
+
+.txt-3{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.mini-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 10px;
+}
+
+.home, .buy, .invest, .contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+.home:hover, .buy:hover, .invest:hover, .contact:hover{
+ color: white;
+ cursor: pointer;
+}
+

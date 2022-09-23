@@ -1,0 +1,43 @@
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+#ab-ug{
+    margin-top: 200px;
+}
+.ug-info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 700px;
+    background-color: rgb(73, 117, 175);
+    border-radius: 5px;
+}
+
+h2{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-size: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+p{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 70px;
+}
+
+.fish1{
+    width: 400px;
+}
+
+
